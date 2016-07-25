@@ -1,0 +1,26 @@
+{
+  "name": "universal-dirname",
+  "version": "1.1.0",
+  "description": "dirname everywhere",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify dirname.js -o index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watilde/universal-dirname.git"
+  },
+  "keywords": [
+    "dirname"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/universal-dirname/issues"
+  },
+  "homepage": "https://github.com/watilde/universal-dirname#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  }
+}
